@@ -277,3 +277,85 @@ header {
         width: 300px;
     }
 }
+
+.about {
+    background: #000; /* Black background */
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.about .container {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent white background */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    color: #fff; /* White text */
+    margin-bottom: 10px;
+    text-transform: uppercase; /* Added uppercasing for a bold look */
+}
+
+.about h2 {
+    font-size: 1.8rem;
+    color: #ccc; /* Light gray text */
+    margin-top: 30px;
+    font-weight: 500; /* Slightly lighter weight for style */   
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #ffffff; /* Light gray text */
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif; /* Smooth modern font */
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about ul li {
+    font-size: 1.1rem;
+    color: #fff; /* White text for list items */
+    background: rgba(0, 0, 0, 0.2); /* Slightly transparent background for list items */
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.about ul li:hover {
+    background: rgba(27, 24, 24, 0.211); /* More opacity on hover */
+}
+
+.about ul li strong {
+    color: #fff; /* Strong items in white */
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 50px 5%;
+    }
+
+    .about .container {
+        padding: 30px;
+    }
+
+    .about h1 {
+        font-size: 2rem;
+    }
+
+    .about h2 {
+        font-size: 1.5rem;
+    }
+
+    .about p, .about ul li {
+        font-size: 1rem;
+    }
+}
